@@ -1,0 +1,20 @@
+# https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
+name: AM43 Controller Home Assistant add-on repository
+version: "1.2.0"
+slug: am43-controller
+description: AM43 Controller Home Assistant add-on repository
+url: "https://github.com/ZacTyAdams/am43-home-assistant-addon/tree/main/am43-controller"
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
+init: false
+map:
+  - share:rw
+options:
+  message: "Hello world..."
+schema:
+  message: "str?"
+# image: "ghcr.io/ZacTyAdams/{arch}-addon-example"
